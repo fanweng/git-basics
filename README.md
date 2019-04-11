@@ -38,3 +38,5 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 [A Beginner's Git and GitHub Tutorial](https://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html)
 
 [Git - Simple Guide](http://rogerdudler.github.io/git-guide/)
+
+[Xuefeng Liao's Git Tutorial](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
