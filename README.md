@@ -17,21 +17,15 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git add <file_name_1>...`
 
+`$ git rm <file_name_1>...`
+
 `$ git status`
 
 `$ git commit -m "your_comment"`
 
 `$ git remote add origin your_repo_url` from now on 'origin' means your repository
 
-`$ git push -u origin master` uses '-u' for the first time, it can be ignored afterwards
-
-# Remove A File
-
-`$ git rm <file_name_1>...`
-
-`$ git commit -m "your_comment"`
-
-`$ git push origin master`
+`$ git push -u origin master_or_other_branch` uses '-u' for the first time, it can be ignored afterwards
 
 # Discard Working Directory Changes
 
@@ -45,11 +39,7 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git log --oneline` shows current HEAD and its ancestry
 
-<<<<<<< HEAD
-`$ git log --graph --pretty=oneline` draws graph of branch structure
-=======
-`$ git log --graph --abbrev-commit` draws graph of branch structure
->>>>>>> dev2
+`$ git log --graph --pretty=oneline --abbrev-commit` draws graph of branch structure
 
 `$ git reflog` shows the entire history
 
