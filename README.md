@@ -21,7 +21,7 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git commit -m "your_comment"`
 
-`$ git remote add origin your_repo_url`
+`$ git remote add origin your_repo_url` from now on 'origin' means your repository
 
 `$ git push -u origin master`
 
