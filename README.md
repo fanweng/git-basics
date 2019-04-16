@@ -41,6 +41,16 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git reset HEAD <file_name_1>...`
 
+# Show Logs and History
+
+`$ git log --oneline` show current HEAD and its ancestry
+
+`$ git reflog` show the entire history
+
+# Reset to A Version
+
+`$ git reset --hard commit_id` where commit_id can be found in the log/history
+
 # Reference
 
 [A Beginner's Git and GitHub Tutorial](https://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html)
