@@ -15,7 +15,7 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git status`
 
-`$ git add <file_name_1> <file_name_2> ...`
+`$ git add <file_name_1>...`
 
 `$ git status`
 
@@ -27,11 +27,19 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 # Remove A File
 
-`$ git rm <file_name>`
+`$ git rm <file_name_1>...`
 
 `$ git commit -m "your_comment"`
 
 `$ git push origin master`
+
+# Discard Working Directory Changes
+
+`$ git checkout -- <file_name_1>...`
+
+# Unstage Changes to Working Directory
+
+`$ git reset HEAD <file_name_1>...`
 
 # Reference
 
