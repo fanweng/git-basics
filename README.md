@@ -23,7 +23,7 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git remote add origin your_repo_url` from now on 'origin' means your repository
 
-`$ git push -u origin master` use '-u' for the first time, it can be ignored afterwards
+`$ git push -u origin master` uses '-u' for the first time, it can be ignored afterwards
 
 # Remove A File
 
@@ -43,9 +43,11 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 # Show Logs and History
 
-`$ git log --oneline` show current HEAD and its ancestry
+`$ git log --oneline` shows current HEAD and its ancestry
 
-`$ git reflog` show the entire history
+`$ git log --graph --abbrev-commit` draws graph of branch structure
+
+`$ git reflog` shows the entire history
 
 # Reset to A Version
 
