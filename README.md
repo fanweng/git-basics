@@ -45,7 +45,11 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git log --oneline` shows current HEAD and its ancestry
 
+<<<<<<< HEAD
 `$ git log --graph --pretty=oneline` draws graph of branch structure
+=======
+`$ git log --graph --abbrev-commit` draws graph of branch structure
+>>>>>>> dev2
 
 `$ git reflog` shows the entire history
 
