@@ -64,11 +64,13 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git remote -v`
 
-# Work Collaboration
+# Work Collaboration Procedure
 
 `$ git push origin branch_name`
 
-`$ git
+`$ git pull`
+
+`$ git branch --set-upstream branch_name origin/branch_name`
 
 # Reference
 
