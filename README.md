@@ -23,7 +23,7 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git remote add origin your_repo_url` from now on 'origin' means your repository
 
-`$ git push -u origin master`
+`$ git push -u origin master` use '-u' for the first time, it can be ignored afterwards
 
 # Remove A File
 
@@ -50,6 +50,18 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 # Reset to A Version
 
 `$ git reset --hard commit_id` where commit_id can be found in the log/history
+
+# Branch
+
+`$ git checkout -b branch_name` equals two following commands combined
+
+`$ git branch branch_name`
+
+`$ git checkout branch_name`
+
+`$ git merge branch_name`
+
+`$ git branch -d branch_name`
 
 # Reference
 
