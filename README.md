@@ -3,9 +3,10 @@
 Documentation: [https://git-scm.com/docs](https://git-scm.com/docs)
 
 # Clone A Repository
+
 `$ git clone repository_url`
 
-# Create New Repository
+# Create New Repository Procedure
 
 Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to your local project directory and initialize *git*:
 
@@ -58,6 +59,16 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 `$ git merge branch_name`
 
 `$ git branch -d branch_name`
+
+# Remote Info
+
+`$ git remote -v`
+
+# Work Collaboration
+
+`$ git push origin branch_name`
+
+`$ git
 
 # Reference
 
