@@ -72,6 +72,18 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git branch --set-upstream branch_name origin/branch_name`
 
+# Tag
+
+`$ git tag tag_name` default will tag HEAD
+
+`$ git tag tag_name commit_id`
+
+`$ git tag` show tag list
+
+`$ git tag -a tag_name -m "your tag message" commit_id` add tag message
+
+`$ git show tag_name` show tag information
+
 # Reference
 
 [A Beginner's Git and GitHub Tutorial](https://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html)
