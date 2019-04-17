@@ -4,7 +4,7 @@ Documentation: [https://git-scm.com/docs](https://git-scm.com/docs)
 
 # Clone A Repository
 
-`$ git clone repository_url`
+`$ git clone <repository_url>`
 
 # Create New Repository Procedure
 
@@ -24,9 +24,9 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git commit -m "your_comment"`
 
-`$ git remote add origin your_repo_url` from now on 'origin' means your repository
+`$ git remote add origin <your_repo_url>` from now on 'origin' means your repository
 
-`$ git push -u origin master_or_other_branch` uses '-u' for the first time, it can be ignored afterwards
+`$ git push -u origin <master_or_other_branch>` uses '-u' for the first time, it can be ignored afterwards
 
 # Discard Working Directory Changes
 
@@ -46,19 +46,19 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 # Reset to A Version
 
-`$ git reset --hard commit_id` where commit_id can be found in the log/history
+`$ git reset --hard <commit_id>` where commit_id can be found in the log/history
 
 # Branch
 
-`$ git checkout -b branch_name` equals two following commands combined
+`$ git checkout -b <branch_name>` equals two following commands combined
 
-`$ git branch branch_name`
+`$ git branch <branch_name>`
 
-`$ git checkout branch_name`
+`$ git checkout <branch_name>`
 
-`$ git merge branch_name`
+`$ git merge <branch_name>`
 
-`$ git branch -d branch_name`
+`$ git branch -d <branch_name>`
 
 # Remote Info
 
@@ -66,23 +66,25 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 # Work Collaboration Procedure
 
-`$ git push origin branch_name`
+`$ git push origin <branch_name>`
 
 `$ git pull`
 
-`$ git branch --set-upstream branch_name origin/branch_name`
+`$ git branch --set-upstream <branch_name> <origin/branch_name>`
 
 # Tag
 
-`$ git tag tag_name` default will tag HEAD
+`$ git tag <tag_name>` default will tag HEAD
 
-`$ git tag tag_name commit_id`
+`$ git tag <tag_name> <commit_id>`
 
 `$ git tag` show tag list
 
-`$ git tag -a tag_name -m "your tag message" commit_id` add tag message
+`$ git tag -a <tag_name> -m "your tag message" <commit_id>` add tag message
 
-`$ git show tag_name` show tag information
+`$ git show <tag_name>` show tag information
+
+`$ git push origin <tag_name>`
 
 # Reference
 
