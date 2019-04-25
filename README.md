@@ -36,6 +36,10 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git reset HEAD <file_name_1>...`
 
+# Undo a Local Commit
+
+`$ git reset HEAD~1`
+
 # Show Logs and History
 
 `$ git log --oneline` shows current HEAD and its ancestry
