@@ -90,6 +90,12 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git push origin <tag_name>`
 
+# Diff
+
+`$ git diff file` show diff of the file that hasn't been git-added
+
+`$ git diff --cached file` show diff of the added file
+
 # Reference
 
 [A Beginner's Git and GitHub Tutorial](https://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html)
