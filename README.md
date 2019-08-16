@@ -89,6 +89,7 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 `$ git show <tag_name>` show tag information
 
 `$ git push origin <tag_name>`
+`$ git push --tag`
 
 # Diff
 
