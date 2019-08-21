@@ -70,6 +70,8 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git remote -v`
 
+`$ git remote show origin` shows the original information of the cloned repository
+
 # Work Collaboration Procedure
 
 `$ git push origin <branch_name>`
