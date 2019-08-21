@@ -54,15 +54,17 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 # Branch
 
+`$ git branch (-a)` shows a list of branches
+
 `$ git checkout -b <branch_name>` equals two following commands combined
 
-`$ git branch <branch_name>`
+`$ git branch <branch_name>` creates a new branch
 
-`$ git checkout <branch_name>`
+`$ git checkout <branch_name>` checkouts or switches to an existing branch
 
 `$ git merge <branch_name>`
 
-`$ git branch -d <branch_name>`
+`$ git branch -d <branch_name>` deletes a branch
 
 # Remote Info
 
