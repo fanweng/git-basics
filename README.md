@@ -103,6 +103,14 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 
 `$ git diff --cached file` show diff of the added file
 
+# Update remote changes
+
+`$ git remote update` update all local branches set to track remotes ones, but not merge any changes in
+
+`$ git fetch` update the branch currently you're on, but not merge any changes in
+
+`$ git pull` update AND merge the remote changes to your current branch
+
 # Reference
 
 [A Beginner's Git and GitHub Tutorial](https://blog.udacity.com/2015/06/a-beginners-git-github-tutorial.html)
