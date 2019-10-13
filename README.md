@@ -95,6 +95,7 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 `$ git show <tag_name>` show tag information
 
 `$ git push origin <tag_name>`
+
 `$ git push --tag`
 
 # Diff
@@ -110,6 +111,22 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 `$ git fetch` update the branch currently you're on, but not merge any changes in
 
 `$ git pull` update AND merge the remote changes to your current branch
+
+# Procedure of syncing a fork
+
+`$ git remote -v` check if upstream is set correctly
+
+`$ git fetch upstream` fetch changes on the upstream
+
+`$ git checkout <your_branch>` switch to your branch
+
+`$ git merge upstream/<your_branch>` merge the changes to your branch
+
+`$ git status` check branch status
+
+`$ git branch -a` check branch list
+
+`$ git push origin <your_branch>` push the merged local changes to your fork
 
 # Reference
 
