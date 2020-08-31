@@ -135,3 +135,5 @@ Firstly, create a repository on Github and get *your_repo_url*. Secondly, go to 
 [Git - Simple Guide](http://rogerdudler.github.io/git-guide/)
 
 [Xuefeng Liao's Git Tutorial](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
+[Atlassian Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
